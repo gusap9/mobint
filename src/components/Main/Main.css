@@ -1,0 +1,7 @@
+.main{
+	background-color: var(--light-grey);
+}
+.not-found{
+	font-size: 3vw;
+	text-align: center;
+}

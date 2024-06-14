@@ -1,0 +1,76 @@
+.card {
+	background-color: var(--white);
+	margin: 4vw;
+	padding: 4vw;
+	border-radius: 4vw;
+	font-size: 4vw;
+}
+.first-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid var(--light-grey);
+}
+.points {
+	display: flex;
+	gap: 2vw;
+	font-size: 5vw;
+	align-items: baseline;
+	margin: 4vw 0;
+}
+.main__icon {
+	height: 10vw;
+	margin-bottom: 2vw;
+	border-radius: 50%;
+}
+.second-box {
+	display: flex;
+	gap: 20vw;
+	padding-bottom: 2vw;
+}
+.label {
+	font-size: 4vw;
+	color: var(--dark-grey);
+}
+.label__primary {
+	font-size: 3vw;
+}
+.third-box {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2vw;
+	border-top: 1px solid var(--light-grey);
+}
+.trash {
+	cursor: pointer;
+	-webkit-mask: url(../../assets/img/trash_white.svg) no-repeat center;
+	mask: url(../../assets/img/trash_white.svg) no-repeat center;
+	mask-size: 100%;
+	width: 4vw;
+	height: 4vw;
+}
+.eye {
+	cursor: pointer;
+	-webkit-mask: url(../../assets/img/eye_white.svg) no-repeat center;
+	mask: url(../../assets/img/eye_white.svg) no-repeat center;
+	mask-size: 100%;
+	width: 4vw;
+	height: 4vw;
+}
+.eye:hover{
+	opacity: .5;
+}
+.trash:hover{
+	background-color: red !important;
+}
+.more {
+	background-color: var(--light-grey);
+	width: 50%;
+	border-radius: 2vw;
+	padding: 2vw 0;
+}
+.more:hover{
+	opacity: .8;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
